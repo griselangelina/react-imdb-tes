@@ -1,4 +1,13 @@
 # react-imdb-tes
 
-run NPM INSTALL
-run NPM START
+To run, make sure to install first:
+
+```bash
+$ npm install
+```
+
+Then start your machine:
+
+```bash
+$ npm start
+```
