@@ -1,0 +1,100 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  padding: 10px;
+  font-weight: bold;
+  width: 200px;
+
+  &.btn-curved {
+    border-radius: 24px;
+  }
+
+  &.btn-gradient {
+    background: linear-gradient(90deg, rgba(35, 170, 228, 1) 0%, rgba(0, 100, 210, 1) 50%, rgba(0, 78, 164, 1) 100%);
+    color: white;
+    border: none;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: #ffdf00;
+      border: none;
+      cursor: pointer;
+    }
+
+    &:active {
+      color: #ffdf00;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  &.btn-primary {
+    background-color: #0064d2;
+    color: #fff;
+
+    &:hover {
+      background-color: #0056b3;
+      color: #fff;
+    }
+
+    &:active {
+      background-color: #003e80;
+      color: #fff;
+    }
+  }
+
+  &.btn-secondary {
+    color: #8a93a7;
+    background-color: #dee2ee;
+
+    &:hover {
+      background-color: #dee2ee;
+    }
+
+    &:active {
+      background-color: #dee2ee;
+    }
+  }
+
+  &.btn-success {
+    background-color: #00a474;
+
+    &:hover {
+      background-color: #008059;
+    }
+
+    &:active {
+      background-color: #004d36;
+    }
+  }
+
+  &.btn-disabled {
+    opacity: 0.7;
+    color: white;
+    border: none;
+
+    &:hover {
+      color: white;
+      cursor: not-allowed;
+      border: none;
+    }
+  }
+
+  &.btn-small {
+    font-size: 12px;
+  }
+
+  &.btn-medium {
+    font-size: 14px;
+  }
+
+  &.btn-large {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,17 @@
+.flash-info {
+  color: white;
+  text-align: center;
+  padding: 10.5px 12px;
+  background-color: #00a474;
+  position: fixed;
+  z-index: 1400;
+  width: 100%;
+  top: 0;
+  left: -1800px;
+  transition: 'left 3000ms ease-in-out';
+
+
+  &.show {
+    left: 0;
+  }
+}

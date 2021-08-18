@@ -1,0 +1,42 @@
+.card-wrapper {
+  display: flex;
+  min-height: 100px;
+  padding: 0;
+  background-color: white;
+  border: 1px solid #dee2ee;
+  border-radius: 10px;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+  }
+
+  .left {
+    & > img {
+      max-width: 120px;
+      max-height: 180px;
+      padding: 12px 16px;
+    }
+  }
+
+  .right {
+    .title {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .year {
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+
+  .modal-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1614845455016" clover="3.2.0">
+  <project timestamp="1614845455016" name="All files">
+    <metrics statements="48" coveredstatements="48" conditionals="15" coveredconditionals="13" methods="19" coveredmethods="19" elements="82" coveredelements="80" complexity="0" loc="48" ncloc="48" packages="5" files="7" classes="7"/>
+    <package name="src.components.Text">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="index.jsx" path="/Users/grissellaangelina/Documents/react-zero/src/components/Text/index.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="29" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.redux">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="reducers.js" path="/Users/grissellaangelina/Documents/react-zero/src/redux/reducers.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.redux.app">
+      <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <file name="action.js" path="/Users/grissellaangelina/Documents/react-zero/src/redux/app/action.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/grissellaangelina/Documents/react-zero/src/redux/app/index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="28" count="13" type="stmt"/>
+        <line num="30" count="13" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="types.js" path="/Users/grissellaangelina/Documents/react-zero/src/redux/app/types.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.route.SendEmail">
+      <metrics statements="30" coveredstatements="30" conditionals="10" coveredconditionals="8" methods="11" coveredmethods="11"/>
+      <file name="index.jsx" path="/Users/grissellaangelina/Documents/react-zero/src/route/SendEmail/index.jsx">
+        <metrics statements="30" coveredstatements="30" conditionals="10" coveredconditionals="8" methods="11" coveredmethods="11"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="89" count="10" type="stmt"/>
+        <line num="98" count="12" type="stmt"/>
+        <line num="126" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="test.mocks">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="styleMock.js" path="/Users/grissellaangelina/Documents/react-zero/test/mocks/styleMock.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
